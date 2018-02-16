@@ -1,0 +1,18 @@
+<div *ngIf="pessoa">
+
+  <h3>Nome: <a href="#" (click)="onClick()">{{ pessoa.nome }}</a></h3>
+  <h3>Idade: {{ pessoa.idade }}</h3>
+  <h3>Maior Idade: {{ pessoa.maiorIdade }}</h3>
+  <div *ngIf="pessoa.maiorIdade">
+    <h2>Sim, você pode dirigir!!!</h2>
+    <button (click)="descricao.focus()">Focus</button>
+    <br/>
+    <textarea #descricao></textarea>
+  </div>
+</div>
+
+<div *ngIf="!pessoa">
+  <p>
+    Nenhum registro encontrado.
+  </p>
+</div>
