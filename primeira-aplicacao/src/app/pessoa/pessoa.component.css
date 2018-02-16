@@ -1,0 +1,10 @@
+h2 {
+    color: tomato;
+    text-decoration: underline;
+}
+
+p {
+    color: crimson;
+    font-weight: bold;
+    font-size: 18px;
+}
