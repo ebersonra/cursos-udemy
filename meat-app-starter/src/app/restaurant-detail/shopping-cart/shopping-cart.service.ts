@@ -16,10 +16,24 @@ export class ShoppingCartService{
 
         if(foundItem){
 
-            foundItem.quantidade = foundItem.quantidade + 1;
+            this.increaseQtde(foundItem);
         }else{
 
             this.itens.push(new CartItem(item));
+        }
+    }
+
+    increaseQtde(item: CartItem){
+
+        item.quantidade = item.quantidade + 1;
+    }
+
+    decreaseQtde(item: CartItem){
+
+        item.quantidade = item.quantidade - 1;
+        if(item.quantidade === 0){
+
+            this.onRemoveItem(item);
         }
     }
 
