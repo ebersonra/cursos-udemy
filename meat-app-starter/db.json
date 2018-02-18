@@ -370,5 +370,57 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "Rua piquiri",
+      "number": "390",
+      "optionalAddress": "Apto 44",
+      "paymentOption": "REF",
+      "orderItens": [
+        {
+          "quantidade": 1,
+          "menuId": "capp"
+        },
+        {
+          "quantidade": 1,
+          "menuId": "espreso"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "Rua piquiri",
+      "number": "890",
+      "optionalAddress": "Apto 99",
+      "paymentOption": "REF",
+      "orderItens": [
+        {
+          "quantidade": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantidade": 2,
+          "menuId": "donut"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "address": "Rua piquiri",
+      "number": "789",
+      "optionalAddress": "Aptio 99",
+      "paymentOption": "MON",
+      "orderItens": [
+        {
+          "quantidade": 1,
+          "menuId": "burger"
+        },
+        {
+          "quantidade": 1,
+          "menuId": "fries"
+        }
+      ],
+      "id": 3
+    }
+  ]
 }
