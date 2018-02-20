@@ -478,6 +478,30 @@
         }
       ],
       "id": 6
+    },
+    {
+      "name": "Eberson",
+      "email": "eberson@teste.com",
+      "emailConfirmation": "eberson@teste.com",
+      "address": "Rua Silva",
+      "number": "8989",
+      "optionalAddress": "",
+      "paymentOption": "DEB",
+      "orderItens": [
+        {
+          "quantidade": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantidade": 2,
+          "menuId": "burger"
+        },
+        {
+          "quantidade": 1,
+          "menuId": "fries"
+        }
+      ],
+      "id": 7
     }
   ]
 }
