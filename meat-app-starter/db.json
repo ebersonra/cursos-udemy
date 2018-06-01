@@ -502,6 +502,38 @@
         }
       ],
       "id": 7
+    },
+    {
+      "name": "Eberson Ramos",
+      "email": "eberson@email.com",
+      "emailConfirmation": "eberson@email.com",
+      "address": "Rua Piquiri",
+      "number": "899",
+      "optionalAddress": "Casa",
+      "paymentOption": "REF",
+      "orderItens": [
+        {
+          "quantidade": 1,
+          "menuId": "burger"
+        },
+        {
+          "quantidade": 1,
+          "menuId": "fries"
+        },
+        {
+          "quantidade": 1,
+          "menuId": "coke.png"
+        },
+        {
+          "quantidade": 1,
+          "menuId": "icestd.png"
+        },
+        {
+          "quantidade": 1,
+          "menuId": "starb"
+        }
+      ],
+      "id": 8
     }
   ]
 }
